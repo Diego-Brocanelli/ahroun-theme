@@ -1,4 +1,5 @@
 {
+    "name": "ahroun",
     "colors":{
         "terminal.background":"#1a1a1a",
         "terminal.foreground":"#F8F8F2",

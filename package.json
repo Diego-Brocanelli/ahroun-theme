@@ -1,35 +1,42 @@
 {
     "name": "ahroun-theme",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A theme, look like Dracula but darker",
     "displayName": "Ahroun Dark",
     "icon": "assets/icon.png",
     "publisher": "DiegoBrocanelli",
-    "engines": {
-        "vscode": "^1.22.0"
+    "author": "Diego Brocanelli <diegod2@msn.com>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:Diego-Brocanelli/ahroun-theme.git"
     },
-    "categories": ["Themes"],
+    "engines": {
+        "vscode": "^1.13.0"
+    },
+    "categories": [
+        "Themes"
+    ],
     "contributes": {
-    "themes": [
-        {
-        "label": "Ahroun",
-        "uiTheme": "vs-dark",
-        "path": "./themes/ahroun.json"
-        }
-    ]
+        "themes": [
+            {
+                "label": "Ahroun",
+                "uiTheme": "vs-dark",
+                "path": "./theme/ahroun-theme.json"
+            }
+        ]
     },
     "keywords": [
         "theme",
         "ahroun",
-        "dracula",
-        "dark"
+        "dracula-darker",
+        "dark",
+        "darker"
     ],
     "scripts": {
         "package": "vsce package --no-yarn",
         "publish": "vsce publish --no-yarn"
     },
-    "author": "",
-    "license": "MIT",
     "dependencies": {
         "vsce": "^2.15.0"
     }
