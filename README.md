@@ -2,6 +2,8 @@
 
 A theme look like Dracula but darker
 
+![result of modification](/assets/result.png)
+
 
 # Install
 
