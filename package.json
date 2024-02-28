@@ -1,0 +1,36 @@
+{
+    "name": "ahroun-theme",
+    "version": "0.0.1",
+    "description": "A theme, look like Dracula but darker",
+    "displayName": "Ahroun Dark",
+    "icon": "assets/icon.png",
+    "publisher": "DiegoBrocanelli",
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "categories": ["Themes"],
+    "contributes": {
+    "themes": [
+        {
+        "label": "Ahroun",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ahroun.json"
+        }
+    ]
+    },
+    "keywords": [
+        "theme",
+        "ahroun",
+        "dracula",
+        "dark"
+    ],
+    "scripts": {
+        "package": "vsce package --no-yarn",
+        "publish": "vsce publish --no-yarn"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "vsce": "^2.15.0"
+    }
+}
